@@ -24,7 +24,7 @@ public class LargestProductInAGrid {
 					 	{01, 70, 54, 71, 83, 51, 54, 69, 16, 92, 33, 48, 61, 43, 52, 01, 89, 19, 67, 48}};
 		long product = 0;
 		long c = 0;
-		//test hang doc
+		//test hang ngang
 		for(int i = 0; i<20; i++ ) {
 			for(int j = 0; j<17; j++) {
 				c = str[i][j]*str[i][j+1]*str[i][j+2]*str[i][j+3];
@@ -33,7 +33,7 @@ public class LargestProductInAGrid {
 				}
 			}
 		}
-		//test hang ngang
+		//test hang doc
 		for(int i = 0; i<20; i++ ) {
 			for(int j = 0; j<17; j++) {
 				c = str[j][i]*str[j+1][i]*str[j+2][i]*str[j+3][i];
